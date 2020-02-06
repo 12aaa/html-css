@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>浮动</title>
+	<style>
+		/*float:浮动 飘浮，left：左对齐
+		overflow：hidden:给子集加了浮动之后父级增加高度 */
+		.out{
+			width: 1000px;
+			background-color:#787575;
+			margin: 0 auto;
+			overflow: hidden
+			
+		}
+		.box1{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			float: left
+			
+		}
+		.box2{
+			width: 150px;
+			height: 100px;
+			background-color: blue;
+			float:left
+			
+		}
+		.box3{
+			width: 50px;
+			height: 50px;
+			background-color: green;
+			float: left
+			
+		}
+	
+	</style>
+</head>
+
+<body>
+	<div class="out">
+		<div class="box1"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+	
+	</div>
+</body>
+</html>

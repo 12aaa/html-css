@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>下拉框导航</title>
+	<!-->：加这个之后就只控制子集不影响后代-->
+	<style>
+		*{padding: 0;margin: 0}
+		.header{height: 100px;background-color: #8DDEFA}
+		.nav{height: 70px;background-color: #25A3FF}
+		ul{list-style: none;width: 1000px; }
+		.nav li {float: left;}
+		.nav li > a{ height: 70px;display: block;text-align: center;text-decoration: none;line-height:2.4em ;font-size: 20px;padding: 0 40px;color: white}
+		.nav li:hover a{background: #2B387A;}
+		.nav li:hover .down{display: block;}
+		/*.nav .down{background-color: #2B387A;display: none}
+		.nav .down a{display: block;text-align: center;line-height: 3em;color: #a2c9f0}*/
+		
+	</style>
+</head>
+
+<body>
+	<div class="header"></div>
+	<div class="nav">
+		<ul>
+			<li>
+				<a href="#">首页</a>
+				<div class="down">
+				    <a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+				</div>
+			</li>
+			<li>
+				<a href="#">分类</a>
+			    <div class="down">
+				    <a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					</div>
+			</li>
+			<li>
+				<a href="#">秒懂百科</a>
+				<div class="down">
+				    <a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					</div>
+			</li>
+			<li>
+				<a href="#">特色百科</a>
+				<div class="down">
+				    <a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					<a href="#">双击打开</a>
+					</div>
+			</li>
+			<li><a href="#">用户</a></li>
+			<li><a href="#">权威合作</a></li>
+		</ul>
+	</div>
+</body>
+</html>

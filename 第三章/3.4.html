@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>浮动框架布局</title>
+<!--margin的值在默认情况下，元素之间的间隔不会累加，中间的间距取决于两元素的最大值。-->
+	<style>
+		*{padding: 0;margin: 0;}
+		/*头部样式*/
+		.header{height: 70px;background-color: #A0A0A0;}
+		/*导航条样式*/
+		.nav{height: 70px; width: 980px;background-color:#767474 ;margin: 0 auto}
+		/*海报样式*/
+		.banner{height: 400px;width: 980px;background-color: #A0A0A0;margin: 10px auto;}
+		/*内容样式*/
+		.main{height: 500px;width: 980px;background-color:#A0A0A0;margin: 10px auto;}
+		.left{height: 500px;width:320px;background-color:#767474 ;float: left;margin-right: 10px}
+		.righttop{height: 245px;width: 650px;background-color:#767474;float: left;}
+		.rightbuttom1{height: 245px;width: 320px;background-color: #767474;float: left;margin: 10px 10px 0 0}
+		.rightbuttom2{height: 245px;width: 320px;background-color: #767474;float: left;margin-top: 10px}
+		/*底部样式*/
+		.footer{height: 100px;background-color: #A0A0A0;}
+		.text{height: 100px;width: 980px;background-color: #767474;margin: 0 auto}
+	</style>
+</head>
+
+<body>
+	<!--头部区域-->
+	<div class="header">
+	    <div class="nav">nav
+		</div>
+	</div>
+	<!--/*海报区域*/-->
+	<div class="banner">banner</div>
+	<!--内容区域-->
+	<div class="main">
+		<div class="left">left</div>
+		
+		<div class="righttop">right</div>
+	    <div class="rightbuttom1">rightbuttom1</div>
+		<div class="rightbuttom2">rightbuttom2</div>
+	
+	</div>
+	<!--底部区域-->
+	<div class="footer">
+		<div class="text"></div>
+	</div>
+</body>
+</html>
+

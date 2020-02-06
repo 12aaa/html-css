@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>css样式</title>
+	/*1.页内样式,把css规则放入在页面的style标签中，只对本页面受到影响*/
+	<style>
+		.box{
+			width: 200px;
+			height: 150px;
+			background-color: green;
+		}
+	
+	</style>
+	/*2外链样式，通过引用css文件，通过link标签引用，只要引用该css文件，这个页面就会收到影响*/
+	<link rel="stylesheet" href="css/css.css"/>
+</head>
+
+<body>
+	3行内标签，通过标签的属性之间添加css规则，他的作用区域就是本标签
+	<h1 style="color: red; background-color: yellow;">勤学网</h1>
+	<div class="box"></div>
+</body>
+</html>
